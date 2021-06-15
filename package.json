@@ -1,0 +1,35 @@
+{
+  "name": "eslintrc-generator",
+  "version": "1.0.0",
+  "description": "A simple command line tool to create .eslintrc.json file after processing certain user inputs with all the configuration",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "generate-eslintrc": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeeshanSharma/eslintrc-generator.git"
+  },
+  "author": "Deeshan Sharma <deeshansharma04@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeeshanSharma/eslintrc-generator/issues"
+  },
+  "homepage": "https://github.com/DeeshanSharma/eslintrc-generator#readme",
+  "dependencies": {
+    "center-align": "^1.0.1",
+    "chalk": "^4.1.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.1.0",
+    "yargs": "^17.0.1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "eslint-config",
+    "eslintrc-generator",
+    "generator"
+  ]
+}
