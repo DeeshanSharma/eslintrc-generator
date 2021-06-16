@@ -21,9 +21,10 @@
     "center-align": "^1.0.1",
     "chalk": "^4.1.1",
     "clear": "^0.1.0",
+    "execa": "^5.1.1",
     "figlet": "^1.5.0",
     "inquirer": "^8.1.0",
-    "yargs": "^17.0.1"
+    "listr": "^0.14.3"
   },
   "keywords": [
     "eslint",
