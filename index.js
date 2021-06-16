@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 
-const paintTerminal = require('./lib/terminal');
-const generateFile = require('./lib/generateFile');
+const paintTerminal = require('./lib/paintTerminal');
+const createConfig = require('./lib/createConfig');
+const runTasks = require('./lib/tasks');
 
-paintTerminal();
-generateFile().then((packages) => console.log(packages));
+(async () => {
+  paintTerminal();
+  const { eslintrc, packages, packageManager } = await createConfig();
+  runTasks(packages, packageManager, eslintrc);
+})();
