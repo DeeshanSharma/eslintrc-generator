@@ -32,5 +32,9 @@
     "eslint-config",
     "eslintrc-generator",
     "generator"
+  ],
+  "files": [
+    "lib/",
+    "assets/"
   ]
 }
