@@ -26,7 +26,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/DeeshanSharma/eslintrc-generator?logo=github&style=for-the-badge)](https://github.com/DeeshanSharma/eslintrc-generator/network)
 [![GitHub stars](https://img.shields.io/github/stars/DeeshanSharma/eslintrc-generator?logo=github&style=for-the-badge)](https://github.com/DeeshanSharma/eslintrc-generator/stargazers)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/DeeshanSharma/eslintrc-generator?logo=github&style=for-the-badge)](https://github.com/DeeshanSharma/eslintrc-generator/pulls)
-[![GitHub License](https://img.shields.io/github/license/deeshansharma/eslintrc-generator?color=sucess&logo=gnu%20privacy%20guard&logoColor=white&style=for-the-badge)](https://github.com/DeeshanSharma/eslintrc-generator/blob/main/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/DeeshanSharma/eslintrc-generator?color=sucess&logo=gnu%20privacy%20guard&logoColor=white&style=for-the-badge)](https://github.com/DeeshanSharma/eslintrc-generator/blob/main/LICENSE)
 
 </div>
 
@@ -41,7 +41,7 @@
 
 <hr />
 
-<p align="center">Eslintrc-Generator is a simple but a time saving command line tool which will help you setup your eslint, project and code formatter with all the configuration you want. You just have to answer some really simple questions and this tool will do all the heavy lifting for you creating the file according to config and installing all the required packages</p>
+<p align="center">Eslintrc-Generator is a simple but time-saving command-line tool that will help you setup your eslint, project, and code formatter with all the configuration you want. You just have to answer some really simple questions and this tool will do all the heavy lifting for you creating the file according to config and installing all the packages</p>
 
 ## 💡 Features
 
@@ -52,9 +52,9 @@
    - Prettier
    - React
 1. Ask questions and creates config based on your choice
-1. You have complete control on the configuration
+1. You have complete control over the configuration
 1. Checks for package.json file and `npm init -y` if not found
-1. Installs all required packages as dev dependency according to config
+1. Installs all required packages as dev dependency as per the config
 1. Uses your preferred package manager
 
 ## ⛏️ Built with
@@ -69,6 +69,7 @@ Follow all these instructions and learn the best way to take benefits from this 
 
 ### 📚 Prerequisite
 
+- Node
 - npm/yarn
 
 ### 🧰 Installation
@@ -78,6 +79,8 @@ Follow all these instructions and learn the best way to take benefits from this 
    ```bash
    npm i eslintrc-generator -g
    ```
+
+   > _**Note:** Global installation is not possible with yarn v2 as far as I know, (please guide me if I am wrong). If you are using yarn v1 then use `yarn global add eslintrc-generator`. But I recommend using the global method_
 
 1. Per project installation
 
@@ -89,9 +92,7 @@ Follow all these instructions and learn the best way to take benefits from this 
    yarn add eslintrc-generator
    ```
 
-   > _**Note:** Global installation is not possible with yarn v2 as far as I know, (please guide me if I am wrong). If you are using yarn v1 then use `yarn global add eslintrc-generator`. But I recommend using the global method_
-
-1. Command to generate rc file
+1. Command to generate RC file
 
    ```bash
    npx generate-eslintrc
@@ -103,7 +104,7 @@ Follow all these instructions and learn the best way to take benefits from this 
 
 ## 🎈 Usage
 
-The package is made to save time in configuring **Eslint** with your project and also with **Prettier**, _(if you have done this before you already know the pain)_. The tool will ask you certain questions, prepare a config and required packages list, install all the packages and create the RC file perfectly compatible with your project as well as Prettier for you as per the config. You just need to focus on your awesome project.
+The package is made to save time configuring **Eslint** and **Prettier**, with your project _(if you have done this before you already know the pain)_. The tool will ask you certain questions, prepare a config and required packages list based on your answers, install all the packages and create the RC file perfectly compatible with your project as well as Prettier. You just need to focus on your awesome project.
 
 ## ✍️ Authors
 
@@ -113,7 +114,7 @@ The package is made to save time in configuring **Eslint** with your project and
 
 **_"In real open source, you have the right to control your own destiny."_** _- Linus Torvalds_
 
-Contributions are what make the open source community an amazing place. Any contributions you make are **greatly appreciated**.
+Contributions are what makes the open-source community an amazing place. Any contributions you make are **greatly appreciated**.
 
 ## 💳 License
 
@@ -136,6 +137,6 @@ Distributed under the MIT License. See [`LICENSE`](LICENCE) for more information
 - [Figlet.js](https://github.com/patorjk/figlet.js)
 - [Clear](https://github.com/bahamas10/node-clear)
 
-## 👋 End Note
+## 👋 EndNote
 
-Star this project so that you don't miss it when you need it and avoid wasting time in Googling the stuff and just focus on the build.
+Star this project so you don't miss it when you need it and avoid wasting time Googling the stuff and just focus on the build.
