@@ -1,6 +1,6 @@
 {
   "name": "eslintrc-generator",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "description": "A simple command line tool to create .eslintrc.json file after processing certain user inputs with all the configuration",
   "main": "index.js",
   "scripts": {},
