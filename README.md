@@ -104,7 +104,7 @@ Follow all these instructions and learn the best way to take benefits from this 
 
 ## 🎈 Usage
 
-The package is made to save time configuring **Eslint** and **Prettier**, with your project _(if you have done this before you already know the pain)_. The tool will ask you certain questions, prepare a config and required packages list based on your answers, install all the packages and create the RC file perfectly compatible with your project as well as Prettier. You just need to focus on your awesome project.
+The sole motive of this package is to improve Developer Experience. The package is made to save time configuring **Eslint** and **Prettier**, with your project _(if you have done this before you already know the pain)_. The tool will ask you certain questions, prepare a config and required packages list based on your answers, install all the packages and create the RC file perfectly compatible with your project as well as Prettier. You just need to focus on your awesome project.
 
 ## ✍️ Authors
 
