@@ -6,6 +6,17 @@ All notable changes to this project will be documented in this file
 
 - Next JS config support
 
+## 1.0.2
+
+Sat, Jun 19, 2021
+
+### 🐛 Fixed
+
+- Eslint issue asking TypeScript and Prettier as dependency
+- Add rule to fix local file import issue in .eslintrc.json
+
+  > _**NOTE:** Uncomment `import/extensions` rule if eslint gives file extension issue when importing you local files_
+
 ## 1.0.1
 
 Fri, Jun 18, 2021
