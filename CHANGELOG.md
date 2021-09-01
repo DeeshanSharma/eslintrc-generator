@@ -6,6 +6,16 @@ All notable changes to this project will be documented in this file
 
 - Next JS config support
 
+## 1.1.1
+
+Wed, Sep 1, 2021
+
+### 🐛 Fixed
+
+- Eslint wants _'eslint-config-airbnb-base'_ for TypeScript
+- Remove console log statement
+- Set default value false to isPrettier flag for no Prettier option
+
 ## 1.1.0
 
 Wed, Sep 1, 2021
