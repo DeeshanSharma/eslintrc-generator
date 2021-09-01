@@ -56,12 +56,23 @@
 1. Checks for package.json file and `npm init -y` if not found
 1. Installs all required packages as dev dependency as per the config
 1. Uses your preferred package manager
+1. Supports CLI arguments
 
 ## ⛏️ Built with
 
 - Inquirer
 - Listr
 - Execa
+- Yargs
+
+## 💻 Command Line Arguments
+
+- **_-t, --moduleType:_** Module type you use [ js: JavaScript modules (Import/Export), req: CommonJS (require)] _{ choices: "js", "req", "none" }_
+- **_-c, --codeRun:_** Code will run on [**array**] _{ choices: "browser", "node" }_
+- **_-r, --isReact:_** Using React in project [**boolean**]
+- **_-l, --language:_** Language you going to use _{ choices: "ts", "js" }_
+- **_-p, --isPrettier:_** Using Prettier for formatting [**boolean**]
+- **_-m, --packageManager:_** Which package manager to use _{ choices: "yarn", "npm" }_
 
 ## 🏁 Getting Started
 
@@ -80,7 +91,7 @@ Follow all these instructions and learn the best way to take benefits from this 
    npm i eslintrc-generator -g
    ```
 
-   > _**Note:** Global installation is not possible with yarn v2 as far as I know, (please guide me if I am wrong). If you are using yarn v1 then use `yarn global add eslintrc-generator`. But I recommend using the global method_
+   > _**Note:** Global installation is not possible with yarn v2 as far as I know, (please guide me if I am wrong). If you are using yarn v1 then use `yarn global add eslintrc-generator`. And I recommend using the global method_
 
 1. Per project installation
 
@@ -95,12 +106,22 @@ Follow all these instructions and learn the best way to take benefits from this 
 1. Command to generate RC file
 
    ```bash
-   npx generate-eslintrc
+   npx eslintrc-generator
 
             or
 
    generate-eslintrc
    ```
+
+   - Generate via CLI arguments
+
+     ```bash
+     npx eslintrc-generator -t js -c node -l ts -m yarn -rp
+
+              or
+
+     generate-eslintrc -t js -c node -l ts -m yarn -rp
+     ```
 
 ## 🎈 Usage
 
@@ -136,6 +157,7 @@ Distributed under the MIT License. See [`LICENSE`](LICENCE) for more information
 - [Center Align](https://github.com/jonschlinkert/center-align)
 - [Figlet.js](https://github.com/patorjk/figlet.js)
 - [Clear](https://github.com/bahamas10/node-clear)
+- [Yargs](https://github.com/yargs/yargs)
 
 ## 👋 EndNote
 

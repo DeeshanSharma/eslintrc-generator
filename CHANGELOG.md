@@ -6,6 +6,14 @@ All notable changes to this project will be documented in this file
 
 - Next JS config support
 
+## 1.1.0
+
+Wed, Sep 1, 2021
+
+### ✨Feat
+
+- Add support for command line arguments
+
 ## 1.0.2
 
 Sat, Jun 19, 2021
